@@ -22,13 +22,13 @@ The Image Labels Generator is a project developed using Amazon Rekognition, aime
 2. **AWS CLI Installation**: Install and configure the AWS Command Line Interface on your machine.
 3. **Python Environment**: Set up a Python environment with required libraries (boto3, etc.).
 4. **GitHub Repository**: Clone or fork this repository to your local machine.
-5. **Configuration File**: Configure AWS credentials and region in the `config.ini` file.
+5. **Configuration File**: Configure AWS credentials and region using the aws configure command.
 6. **Run the Application**: Execute the Python script to start the image labeling process.
 
 ## Usage
 
 1. **Upload Images**: Place images to be labeled in the designated Amazon S3 bucket.
-2. **Run the Script**: Execute the `main.py` script to trigger the image recognition process.
+2. **Run the Script**: Execute the `rekognition_script.py` script to trigger the image recognition process.
 3. **Retrieve Results**: Access the labeled images and corresponding labels from the output.
 
 ## Contributions
